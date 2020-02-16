@@ -29,17 +29,7 @@ spring:
 #     username: admin
 #     password: admin
 #   jpa:
-#    show-sql: true   
----
-spring:
-  cloud:
-    stream:
-      bindings:
-        paymentsChannel:
-         binder: rabbit
-         destination: newpayment.ms.exchange
-         content-type: application/json
-         group: ibm.bharatiya    
+#    show-sql: true  
 
 ---
 spring:
